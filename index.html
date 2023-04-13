@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>favorite food</title>
+        <style>
+            header {
+                background-color: rgb(2, 7, 7);
+            }
+
+            header a {
+                padding: 10px;
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+            }
+
+            header a:hover {
+                background-color: rgb(33, 25, 25);
+            }
+
+            html {
+                scroll scroll-behavior: smooth;
+            }
+
+            body {
+                background-color: antiquewhite;
+                margin: 0;
+            }
+
+            main {
+                text-align: center;
+            }
+
+            ul a {
+                color: brown;
+                font: 25px;
+                text-decoration: none;
+            }
+
+            h2 {
+                color: green;
+                padding: 6px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <a href="#">Index</a>
+            <a href="#">Food</a>
+            <a href="#">About</a>
+        </header>
+
+        <h1>Top 5 favorite foods</h1>
+
+        <ul>
+            <li><a href="#biriyani">Biriyani</a></li>
+            <li><a href="#cake">Cake</a></li>
+            <li><a href="#pizza">Pizza</a></li>
+            <li><a href="#choupsey">Choupsey</a></li>
+            <li><a href="#wings">Wings</a></li>
+        </ul>
+
+        <main>
+            <food id="biriyani" src="food/biriyani.jpg" />
+            <h2>Biriyani</h2>
+            <food id="cake" src="food/cake.jpg" />
+            <h2>Cake</h2>
+            <food id="pizza" src="food/pizza.jpg" />
+            <h2>Pizza</h2>
+            <food id="choupsey" src="food/choupsey.jpg" />
+            <h2>Choupsey</h2>
+            <food id="wings" src="food/wings.jpg" />
+            <h2>Wings</h2>
+        </main>
+
+    </body>
+</html>
